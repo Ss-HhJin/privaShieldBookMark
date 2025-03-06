@@ -1,4 +1,4 @@
-javascript:(function(){
+(function(){
   // 서버 API 엔드포인트
   let API_URL = (window.location.protocol === 'https:') 
     ? 'https://localhost:5000/api/detect-pii'
