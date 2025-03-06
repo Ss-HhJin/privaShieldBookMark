@@ -1,6 +1,6 @@
 javascript:(function(){
   // 서버 API 엔드포인트
-  const API_URL = 'http://localhost:5000/api/detect-pii';
+  const API_URL = 'https://localhost:5000/api/detect-pii';
   // 이메일 파라미터 또는 로컬 스토리지에서 사용자 이메일 가져오기
   let userEmail = new URL(location.href).searchParams.get('email') || localStorage.getItem('user_email');
   
